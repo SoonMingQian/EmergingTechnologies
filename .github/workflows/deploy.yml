@@ -20,6 +20,6 @@ jobs:
         uses: peaceiris/actions-github-pages@v3.1.12
         with: 
           github_token: ${{ secrets.TOKEN_GITHUB }}
-          publish_branch: main
+          publish_branch: gh-pages
           publish_dir: './eliza'
         
