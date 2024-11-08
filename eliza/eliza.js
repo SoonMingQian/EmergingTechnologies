@@ -137,10 +137,6 @@ function displayMessage(text, sender) {
     chatBox.scrollTop = chatBox.scrollHeight; // Scroll to the latest message
 }
 
-document.getElementById('toggle-dark-mode').addEventListener('click', () => {
-    document.body.classList.toggle('dark-mode');
-});
-
 // Test Suite
 console.log(respond("I want to be happy"));
 console.log(respond("why is life so hard?"));

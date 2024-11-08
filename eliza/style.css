@@ -75,26 +75,6 @@ button {
     cursor: pointer;
 }
 
-/* Dark Mode */
-body.dark-mode {
-    background-color: #333;
-    color: #f4f4f9;
-}
-
-body.dark-mode .chat-container {
-    background-color: #444;
-}
-
-body.dark-mode .message.user {
-    background-color: #333;
-    color: #fff;
-}
-
-body.dark-mode .message.bot {
-    background-color: #555;
-    color: #fff;
-}
-
 /* Animations */
 @keyframes fadeIn {
     from { opacity: 0; }
