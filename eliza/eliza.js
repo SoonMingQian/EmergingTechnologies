@@ -123,7 +123,7 @@ function sendMessage() {
     document.getElementById('user-input').value = "";
 
     // Get ELIZA's response and display it
-    const elizaResponse = getElizaResponse(userInput);
+    const elizaResponse = respond(userInput);
     setTimeout(() => displayMessage(elizaResponse, 'bot'), 500); // Add delay for realism
 }
 
