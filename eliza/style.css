@@ -1,1 +1,102 @@
 
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.chat-container {
+    width: 100%;
+    max-width: 600px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.header {
+    background-color: #4a90e2;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.chat-box {
+    padding: 10px;
+    max-height: 400px;
+    overflow-y: auto;
+    transition: all 0.3s ease;
+}
+
+/* Message Styling */
+.message {
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 12px;
+    opacity: 0;
+    animation: fadeIn 0.3s forwards;
+}
+
+.message.user {
+    background-color: #e1ffc7;
+    align-self: flex-end;
+    text-align: right;
+}
+
+.message.bot {
+    background-color: #d9eafc;
+    align-self: flex-start;
+    text-align: left;
+}
+
+/* Input Area */
+.input-container {
+    display: flex;
+    border-top: 1px solid #ccc;
+}
+
+#user-input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background-color: #4a90e2;
+    color: white;
+    cursor: pointer;
+}
+
+/* Dark Mode */
+body.dark-mode {
+    background-color: #333;
+    color: #f4f4f9;
+}
+
+body.dark-mode .chat-container {
+    background-color: #444;
+}
+
+body.dark-mode .message.user {
+    background-color: #333;
+    color: #fff;
+}
+
+body.dark-mode .message.bot {
+    background-color: #555;
+    color: #fff;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
