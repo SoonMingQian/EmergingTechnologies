@@ -70,3 +70,56 @@ Run the script to generate text and analyze it. The script performs the followin
 ---
 
 ## Eliza
+
+ELIZA is an early natural language processing computer program created by Joseph Weizenbaum in the mid-1960s. This project is a modern
+
+### Features
+
+- Simulates conversation using pattern matching and substitution methodology.
+- Reflects user input by substituting pronouns to make responses more natural.
+- Provides responses based on predefined patterns.
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+- A web browser
+
+### Installation
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/yourusername/eliza-chatbot.git
+    ```
+2. Navigate to the project directory:
+    ```bash
+    cd eliza-chatbot
+    ```
+3. Open `index.html` in your web browser.
+
+---
+
+### Usage
+
+1. Open `index.html` in your web browser.
+2. Type a message in the input box and click "Send".
+3. ELIZA will respond based on the predefined patterns.
+
+---
+
+### Code Structure
+
+- `index.html`: The main HTML file that contains the structure of the chatbot interface.
+- `eliza.js`: The JavaScript file that contains the logic for the ELIZA chatbot.
+- `style.css`: The CSS file that contains the styles for the chatbot interface.
+
+---
+
+### Functions
+
+- `reflect(text)`: Reflects user input by substituting pronouns.
+- `respond(userInput)`: Generates ELIZA's response based on user input.
+- `sendMessage()`: Sends a message and displays it in the chat box.
+- `displayMessage(text, sender)`: Displays a message in the chat box.
