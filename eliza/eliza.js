@@ -1,9 +1,9 @@
 const responses = {
     // Greeting responses
     'hello|hi|hey': [
-        "Hi there! What's on your mind",
-        "Hello! How can I help you", 
-        "Hey! How are you feeling today"
+        "Hi there! What's on your mind?",
+        "Hello! How can I help you?", 
+        "Hey! How are you feeling today?"
     ],
     // How are you responses
     'how are you': [
@@ -24,7 +24,7 @@ const responses = {
     ],
     // Responses for "I feel" statements
     'I feel (.*)': [
-        "Tell me more about feeling {0}", 
+        "Tell me more about feeling {0}.", 
         "Why do you feel {0}?"
     ],
     // Responses for "I need" statements
@@ -53,7 +53,7 @@ const responses = {
     ],
     // Responses for "my" statements
     'my (.*)': [
-        "Let's discuss your {0}", 
+        "Let's discuss your {0}.", 
         "Why is your {0} important to you?"
     ],
     // Responses for "yes" or "yeah"
@@ -92,6 +92,24 @@ const responses = {
         "Thank you for sharing. Goodbye!",
         "Bye! I'm here if you need to talk again."
     ],
+    // Responses for "can you" questions
+    'can you (.*)': [
+        "What makes you think I can {0}?",
+        "Why do you want me to {0}?",
+        "What if I could {0}?"
+    ],
+    // Responses for "what" questions
+    'what (.*)': [
+        "Why do you ask?",
+        "What do you think?",
+        "How would you answer that?"
+    ],
+    // Responses for "how" questions
+    'how (.*)': [
+        "How do you suppose?",
+        "What do you think?",
+        "Can you explain how {0}?"
+    ],
     // Default responses
     '(.*)': [
         "Tell me more.", 
@@ -109,6 +127,11 @@ const reflections = {
     "your": "my",
     "yours": "mine",
     "are": "am",
+    "was": "were",
+    "i'd": "you would",
+    "i'll": "you will",
+    "i've": "you have",
+    "i'm": "you are"
 };
 
 // Reflect function to swap pronouns
