@@ -83,21 +83,8 @@ ELIZA is an early natural language processing computer program created by Joseph
 
 ## Getting Started
 
-### Prerequisites
-
-- A web browser
-
-### Installation
-
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/yourusername/eliza-chatbot.git
-    ```
-2. Navigate to the project directory:
-    ```bash
-    cd eliza-chatbot
-    ```
-3. Open `index.html` in your web browser.
+### Link
+https://soonmingqian.github.io/EmergingTechnologies/
 
 ---
 
