@@ -18,43 +18,41 @@ const responses = {
     ],
     // Responses for "I am" statements
     'I am (.*)': [
-        "Why do you think you are {1}?",
         "How long have you felt that way?",
-        "What made you feel like {1}?"
+        "What made you feel like this ?"
     ],
     // Responses for "I feel" statements
     'I feel (.*)': [
-        "Tell me more about feeling {0}.", 
-        "Why do you feel {0}?"
+        "Tell me more about feeling.", 
+        "Why do you feel ?"
     ],
     // Responses for "I need" statements
     '(.*) I need (.*)': [
-        "Why do you need {1}?",
-        "Would getting {1} really help you?",
-        "What if you didn’t need {1}?"
+        "Why do you need it ?",
+        "Would getting it really help you ?",
+        "What if you didn’t need it ?"
     ],
     // Responses for "I want" statements
     'I want (.*)': [
-        "What would it mean if you got {0}?",
-        "Why do you want {0}?",
-        "What would having {0} bring to your life?"
+        "What would it mean if you got it ?",
+        "Why do you want it ?",
     ],
     // Responses for "I think" statements
     'I think (.*)': [
-        "Why do you think {0}?",
-        "What makes you think {0}?",
-        "Are you sure that {0}?"
+        "Why do you think like this?",
+        "What makes you think like this?",
+        "Are you sure ?"
     ],
     // Responses for "I don't know" statements
     'I dont know(.*)': [
-        "Why don't you know {0}?",
-        "What makes it difficult to know {0}?",
+        "Why don't you know ?",
+        "What makes it difficult to know ?",
         "Would you like to explore this further?"
     ],
     // Responses for "my" statements
     'my (.*)': [
-        "Let's discuss your {0}.", 
-        "Why is your {0} important to you?"
+        "Let's discuss it.", 
+        "Why is it important to you?"
     ],
     // Responses for "yes" or "yeah"
     'yes|yeah': [
@@ -71,7 +69,6 @@ const responses = {
     // Responses for "why" questions
     'why (.*)?': [
         "What do you think?",
-        "Why do you think {0}?",
         "What are your thoughts on this?"
     ],
     // Responses for "because" statements
@@ -94,9 +91,9 @@ const responses = {
     ],
     // Responses for "can you" questions
     'can you (.*)': [
-        "What makes you think I can {0}?",
-        "Why do you want me to {0}?",
-        "What if I could {0}?"
+        "What makes you think I can ?",
+        "Why do you want me to do?",
+        "What if I could do?"
     ],
     // Responses for "what" questions
     'what (.*)': [
@@ -108,7 +105,7 @@ const responses = {
     'how (.*)': [
         "How do you suppose?",
         "What do you think?",
-        "Can you explain how {0}?"
+        "Can you explain how is works?"
     ],
     // Default responses
     '(.*)': [
