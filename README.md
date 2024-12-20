@@ -73,7 +73,6 @@ Run the script to generate text and analyze it. The script performs the followin
 - https://realpython.com/python-lists-tuples/
 - https://realpython.com/python-zip-function/
 - https://realpython.com/python-counter/
-- 
 
 ---
 
