@@ -67,6 +67,14 @@ Run the script to generate text and analyze it. The script performs the followin
 - [Project Gutenberg](https://www.gutenberg.org) for providing the English literary works.
 - The Python community for the libraries used in this project.
 
+--- 
+
+### References
+- https://realpython.com/python-lists-tuples/
+- https://realpython.com/python-zip-function/
+- https://realpython.com/python-counter/
+- 
+
 ---
 
 ## Eliza
@@ -110,3 +118,9 @@ https://soonmingqian.github.io/EmergingTechnologies/
 - `respond(userInput)`: Generates ELIZA's response based on user input.
 - `sendMessage()`: Sends a message and displays it in the chat box.
 - `displayMessage(text, sender)`: Displays a message in the chat box.
+
+---
+
+### References
+- https://blog.csml.dev/use-the-actual-eliza-algorithm-in-your-chatbot/
+- https://github.com/wadetb/eliza
